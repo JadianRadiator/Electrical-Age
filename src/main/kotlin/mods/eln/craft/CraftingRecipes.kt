@@ -1467,7 +1467,7 @@ object CraftingRecipes {
         )
           Eln.instance.maceratorRecipes.addRecipe(
             Recipe(
-                ItemStack(Eln.findItenStscm("Railcraft:part.plate:3")), arrayOf<ItemStack>(
+                Eln.findItenStscm("Railcraft:part.plate:3"), arrayOf<ItemStack>(
                     Eln.findItemStack(
                         "Gold " +
                                 "Dust", 2
