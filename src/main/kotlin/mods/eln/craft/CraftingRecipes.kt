@@ -1465,7 +1465,17 @@ object CraftingRecipes {
                 ), 3.0 * f
             )
         )
-        Eln.instance.maceratorRecipes.addRecipe(
+          Eln.instance.maceratorRecipes.addRecipe(
+            Recipe(
+                ItemStack(Eln.findItenStscm("Railcraft:part.plate:3")), arrayOf<ItemStack>(
+                    Eln.findItemStack(
+                        "Gold " +
+                                "Dust", 2
+                    )
+                ), 3.0 * f
+            )
+        )
+      Eln.instance.maceratorRecipes.addRecipe(
             Recipe(
                 findItemStack("Lead Ore"), arrayOf<ItemStack>(
                     Eln.findItemStack(
